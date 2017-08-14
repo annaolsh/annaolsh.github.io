@@ -80,3 +80,19 @@ hr::after {
   background-color: #8b8b8b;
   -webkit-transform: rotate(45deg);
 }
+
+#portfolio {
+  height: 80vh;
+  background-color: black;
+  color: white;
+}
+
+#resume {
+  height: 80vh;
+}
+
+#contacts {
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
