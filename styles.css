@@ -1,0 +1,53 @@
+html,body {
+margin:0;
+padding:0;
+}
+
+header {
+  background-color: yellow;
+  height: 10vh;
+  margin: 0;
+}
+
+header div#name {
+  float: left;
+}
+
+header div#navbar {
+  float: right
+}
+
+/*#front-image:hover {
+
+
+			transition: all 0.25s ease-in-out;
+
+			-webkit-filter: blur(4px);
+			-moz-filter: blur(4px);
+			-ms-filter: blur(4px);
+			filter: blur(4px);
+}*/
+
+#front-image {
+  background-image: url('https://static.pexels.com/photos/34676/pexels-photo.jpg');
+  background-size: cover;
+  padding: 5px;
+  margin: -5px;
+  height: 90vh;
+}
+
+.text-h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.text-h1 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
