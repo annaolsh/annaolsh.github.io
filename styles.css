@@ -7,6 +7,9 @@ header {
   background-color: yellow;
   height: 10vh;
   margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header div#name {
@@ -31,6 +34,7 @@ header div#navbar {
 #front-image {
   background-image: url('https://static.pexels.com/photos/34676/pexels-photo.jpg');
   background-size: cover;
+  overflow: hidden;
   padding: 5px;
   margin: -5px;
   height: 90vh;
