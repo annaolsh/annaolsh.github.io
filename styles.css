@@ -36,6 +36,14 @@ header div#navbar {
   height: 90vh;
 }
 
+#greeting {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .text-h2 {
   color: #fff;
   text-align: center;
@@ -44,10 +52,5 @@ header div#navbar {
 .text-h1 {
   text-transform: uppercase;
   text-align: center;
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #fff;
 }
