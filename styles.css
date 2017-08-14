@@ -54,3 +54,29 @@ header div#navbar {
   text-align: center;
   color: #fff;
 }
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  max-width: 400px;
+  position: relative;
+  margin: 0 auto 50px auto;
+  height: 1px;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+hr::after {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  content: "";
+  bottom: -4px;
+  left: 50%;
+  margin-left: -5px;
+  background-color: #8b8b8b;
+  -webkit-transform: rotate(45deg);
+}
