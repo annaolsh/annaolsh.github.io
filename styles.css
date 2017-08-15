@@ -1,10 +1,11 @@
 html,body {
 margin:0;
 padding:0;
+
 }
 
 header {
-  background-color: yellow;
+  background-color: white;
   height: 10vh;
   margin: 0;
   position: fixed;
