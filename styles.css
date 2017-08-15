@@ -38,7 +38,7 @@ header div#navbar {
   overflow: hidden;
   padding: 5px;
   margin: -5px;
-  height: 90vh;
+  height: 100vh;
 }
 
 #greeting {
@@ -100,4 +100,11 @@ hr::after {
   height: 40vh;
   background-color: black;
   color: white;
+}
+
+#about {
+  width: 60%;
+  position: relative;
+  left: 20%;
+
 }
